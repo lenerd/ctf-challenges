@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="/static/css/starter-template.css" rel="stylesheet">
+{% endblock %}
+
+{% block title %}
+{{ title }} -- Flag
+{% endblock %}
+
+{% block content %}
+<div class="starter-template">
+  <h1>Congratulations {{ username }}! Here is your flag:</h1>
+  <p class="lead">{{ flag }}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,9 @@
+Title: 3DES-HMAC
+Points: 500
+Flag: CTF{D0_n0T_t311_m3_tH1s_w45_n3iTheR_3DES_n0r_HMAC}
+Description:
+
+This challenge is written in Rust. So it is automatically secure, right?
+
+Category: crypto
+Files: Cargo.lock Cargo.toml src/ static/ templates/
